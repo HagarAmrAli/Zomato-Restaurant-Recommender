@@ -16,7 +16,7 @@ def cached_load_and_clean_data(path):
     return load_and_clean_data(path)
 
 # Load data
-data_path = "data/zomato.csv"
+data_path = "zomato_recommender_project/data/zomato.csv"
 df = cached_load_and_clean_data(data_path)
 
 # Check if data is loaded
